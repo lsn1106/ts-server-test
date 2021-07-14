@@ -10,7 +10,8 @@
     "build": "tsc && npx tsc-alias",
     "test": "jest --forceExit --detectOpenHandles",
     "lint": "eslint --ignore-path .gitignore --ext .ts src/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "prod": "npm run build && npm run start"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
